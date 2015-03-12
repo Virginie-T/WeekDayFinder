@@ -1,53 +1,53 @@
 SPECS
 
 1   The first day returns as the same day of the week as the anchor date
-    input: "1/1/0000"
-    output: "Monday"
+    input: "03/12/2015"
+    output: "Thursday"
 
-2   The day after the first returns as the next day of the week
-    input: "1/2/0000"
-    output: "Tuesday"
-
-3   Two days after first returns next
-    input: "1/3/0000"
-    output: Wednesday
-
-4   Three days after first returns next
-    input: "1/4/0000"
-    output: Thursday
-
-5   Four days after first returns next
-    input: "1/5/0000"
+2   Tomorrow returns as next day of the week
+    input: "03/13/2015"
     output: "Friday"
 
-6   Five days after first returns next
-    input: "1/6/0000"
+3   Yesterday returns as previous day of the week
+    input: "03/11/2015"
+    output: "Wednesday"
+
+4   Two days from anchor
+    input: "03/14/2015"
     output: "Saturday"
 
-7   Six days after first returns next
-    input: "1/7/0000"
+5   Three days from anchor
+    input: "03/15/2015"
     output: "Sunday"
 
-8   A week from the first day returns as the same day of the week
-    input "1/8/0000"
+6   Four days from anchor
+    input: "03/16/2015"
     output: "Monday"
 
-9   A week and a day from first day returns as next day of the week
-    input: "1/9/0000"
+7   Five days from anchor
+    input: "03/17/2015"
     output: "Tuesday"
 
-10   Two weeks from the first day returns as the same day of the week
-    input: "1/15/0000"
-    output: "Monday"
+8   Six days from anchor
+    input "03/18/2015"
+    output: "Wednesday"
 
-11   Two weeks and a day from the first day returns as the next day of the week
-    input: "1/16/0000"
-    output: Tuesday
+9   A week from anchor
+    input: "03/19/2015"
+    output: "Thursday"
 
-12   One month from the first day returns
-    input: "2/1/0000"
-    output: Thursday
+10  A week ago from anchor
+    input: "03/05/2015"
+    output: "Thursday"
 
-13  One month, one week, and a day from first day
-    input: "2/9/0000"
-    output: Friday
+11  The last day of this month
+    input: "03/31/2015"
+    output: "Tuesday"
+
+12  The first day of the next month
+    input: "04/01/2015"
+    output: "Wednesday"
+
+13  The last day of the previous month
+    input: "02/28/2015"
+    output: "Saturday"
