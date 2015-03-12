@@ -15,6 +15,7 @@
             $day_days = $input_day - $anchor_day;
 
             $total_days = $year_days + $month_days + $day_days;
+            $abs_total_days
 
             $modulo_days = $total_days%7;
             switch ($modulo_days) {
@@ -27,6 +28,8 @@
                 case 2:
                     $output = 'Saturday';
                     break;
+                case 6:
+                    $output = 'Wednesday';
             }
 
             return $output;
@@ -35,3 +38,13 @@
     }
 
 ?>
+
+//if (total days is a negative number){
+    switch (modulo days)
+        case 1:
+            output = "Wednesday";
+        case 2:
+            output = Tuesday;
+} else {
+    switch that is currently in code
+}
