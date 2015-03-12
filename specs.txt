@@ -67,3 +67,7 @@ SPECS
 17  The first day of the next month plus a week and a day
     input: "04/09/2015"
     output: "Thursday"
+
+18  The first day of the next month
+    input: "05/01/2015"
+    output: "Friday"
