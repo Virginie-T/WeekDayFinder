@@ -119,3 +119,7 @@ SPECS
 30 Equivalent day of next year (leap year)
     input: "03/12/2016"
     output: "Saturday"
+
+31  Two years from today
+    input: "03/12/2017"
+    output: "Sunday"
