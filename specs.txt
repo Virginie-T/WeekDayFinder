@@ -35,3 +35,7 @@ SPECS
 4   A week and a day from first day returns as next day of the week
     input: "1/9/0000"
     output: "Tuesday"
+
+5   Two weeks from the first day returns as the same day of the week
+    input: "1/15/0000"
+    output:
