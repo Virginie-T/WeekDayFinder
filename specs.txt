@@ -99,3 +99,7 @@ SPECS
 25  The first day of the next month
     input: "12/01/2015"
     output: "Tuesday"
+
+26  The last day of January
+    input: "01/31/2015"
+    output: "Saturday"
