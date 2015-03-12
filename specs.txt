@@ -11,3 +11,8 @@ SPECS
 3   Two days after first returns next
     input: "1/3/0000"
     output: Wednesday
+
+4   Three days after first returns next
+    input: "1/4/0000"
+    output: Thursday
+    
