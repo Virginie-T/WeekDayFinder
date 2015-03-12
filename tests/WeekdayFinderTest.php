@@ -35,6 +35,21 @@
             $this->assertEquals('Friday', $result);
         }
 
+        function test_previous_day()
+        {
+            //Arrange
+            $same_day_test = new WeekdayFinder;
+            $year = 2015;
+            $month = 03;
+            $day = 11;
+
+            //Act
+            $result = $same_day_test->find_the_weekday($year, $month, $day);
+
+            //Assert
+            $this->assertEquals('Wednesday', $result);
+        }
+
         function test_two_days_later()
         {
             //Arrange
