@@ -5,11 +5,11 @@
     class WeekdayFinderTest extends PHPUnit_Framework_TestCase
     {
 
-        function same_day_test($year, $month, $day)
+        function test_same_day()
         {
             //Arrange
             $same_day_test = new WeekdayFinder;
-            $year =  2015;
+            $year = 2015;
             $month = 03;
             $day = 12;
 
