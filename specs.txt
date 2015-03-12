@@ -47,3 +47,7 @@ SPECS
 12   One month from the first day returns
     input: "2/1/0000"
     output: Thursday
+
+13  One month, one week, and a day from first day
+    input: "2/9/0000"
+    output: Friday
