@@ -123,3 +123,7 @@ SPECS
 31  Two years from today
     input: "03/12/2017"
     output: "Sunday"
+
+32  Year before most recent leap year
+    input: "03/12/2011"
+    output: "Saturday"
