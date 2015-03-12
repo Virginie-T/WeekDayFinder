@@ -103,3 +103,7 @@ SPECS
 26  The last day of January
     input: "01/31/2015"
     output: "Saturday"
+
+27  The first day of the year
+    input: "01/01/2015"
+    output: "Thursday"
