@@ -27,3 +27,8 @@ SPECS
 7   Six days after first returns next
     input: "1/7/0000"
     output: "Sunday"
+
+3   A week from the first day returns as the same day of the week
+    input "1/8/0000"
+    output: "Monday"
+    
