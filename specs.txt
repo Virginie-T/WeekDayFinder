@@ -19,3 +19,8 @@ SPECS
 5   Four days after first returns next
     input: "1/5/0000"
     output: "Friday"
+
+6   Five days after first returns next
+    input: "1/6/0000"
+    output: "Saturday"
+    
