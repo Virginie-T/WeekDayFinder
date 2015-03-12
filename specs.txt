@@ -3,7 +3,11 @@ SPECS
 1   The first day returns as the same day of the week as the anchor date
     input: "1/1/0000"
     output: "Monday"
-    
+
 2   The day after the first returns as the next day of the week
     input: "1/2/0000"
     output: "Tuesday"
+
+3   Two days after first returns next
+    input: "1/3/0000"
+    output: Wednesday
