@@ -115,3 +115,7 @@ SPECS
 29  Equivalent day of previous year
     input: "03/12/2014"
     output: "Wednesday"
+
+30 Equivalent day of next year (leap year)
+    input: "03/12/2016"
+    output: "Saturday"
