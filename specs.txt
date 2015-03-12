@@ -31,4 +31,7 @@ SPECS
 3   A week from the first day returns as the same day of the week
     input "1/8/0000"
     output: "Monday"
-    
+
+4   A week and a day from first day returns as next day of the week
+    input: "1/9/0000"
+    output: "Tuesday"
