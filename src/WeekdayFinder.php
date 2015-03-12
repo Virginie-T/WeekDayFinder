@@ -24,6 +24,9 @@
                 case 1:
                     $output = 'Friday';
                     break;
+                case 2:
+                    $output = 'Saturday';
+                    break;
             }
 
             return $output;
