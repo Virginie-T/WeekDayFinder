@@ -28,18 +28,22 @@ SPECS
     input: "1/7/0000"
     output: "Sunday"
 
-3   A week from the first day returns as the same day of the week
+8   A week from the first day returns as the same day of the week
     input "1/8/0000"
     output: "Monday"
 
-4   A week and a day from first day returns as next day of the week
+9   A week and a day from first day returns as next day of the week
     input: "1/9/0000"
     output: "Tuesday"
 
-5   Two weeks from the first day returns as the same day of the week
+10   Two weeks from the first day returns as the same day of the week
     input: "1/15/0000"
     output: "Monday"
 
-6   Two weeks and a day from the first day returns as the next day of the week
+11   Two weeks and a day from the first day returns as the next day of the week
     input: "1/16/0000"
     output: Tuesday
+
+12   One month from the first day returns
+    input: "2/1/0000"
+    output: Thursday
