@@ -38,4 +38,8 @@ SPECS
 
 5   Two weeks from the first day returns as the same day of the week
     input: "1/15/0000"
-    output:
+    output: "Monday"
+
+6   Two weeks and a day from the first day returns as the next day of the week
+    input: "1/16/0000"
+    output: Tuesday
