@@ -111,3 +111,7 @@ SPECS
 28  The last day of the previous year
     input: "12/31/2014"
     output: "Wednesday"
+
+29  Equivalent day of previous year
+    input: "03/12/2014"
+    output: "Wednesday"
