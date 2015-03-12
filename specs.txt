@@ -91,3 +91,7 @@ SPECS
 23  The first day of the next month
     input: "10/01/2015"
     output: "Thursday"
+
+24  The first day of the next month
+    input: "11/01/2015"
+    output: "Sunday"
