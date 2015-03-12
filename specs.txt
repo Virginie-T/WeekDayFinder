@@ -56,10 +56,14 @@ SPECS
     input: "04/02/2015"
     output: "Thursday"
 
-15 The last day of the previous month minus a day
+15  The last day of the previous month minus a day
     input: "02/27/2015"
     output: "Friday"
 
-16 The first day of the next month plus a week
+16  The first day of the next month plus a week
     input: "04/08/2015"
     output: "Wednesday"
+
+17  The first day of the next month plus a week and a day
+    input: "04/09/2015"
+    output: "Thursday"
