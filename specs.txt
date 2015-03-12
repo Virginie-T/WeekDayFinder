@@ -23,4 +23,7 @@ SPECS
 6   Five days after first returns next
     input: "1/6/0000"
     output: "Saturday"
-    
+
+7   Six days after first returns next
+    input: "1/7/0000"
+    output: "Sunday"
