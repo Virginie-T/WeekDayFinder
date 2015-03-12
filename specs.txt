@@ -75,3 +75,7 @@ SPECS
 19  The first day of the next month
     input: "06/01/2015"
     output: "Monday"
+
+20  The first day of the next month
+    input: "07/01/2015"
+    output: "Wednesday"
